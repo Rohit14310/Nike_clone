@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main_container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #17173b, #3533b8);
+  position: relative;
+  overflow: hidden;
+}
+
+.box_2 {
+  height: 100vh;
+  width: 60%;
+  background: linear-gradient(to right, #ff1047, #ce3f61);
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 67% 100%);
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav_bar {
+  /* border: 2px solid rgb(43, 0, 255); */
+  width: 100%;
+  height: 12vh;
+  background-color: transparent;
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: baseline;
+  padding-top: 17px;
+  gap: 80px;
+}
+.anchor {
+  gap: 60px;
+}
+.anchor_01 {
+  text-decoration: underline;
+}
+.nike {
+  width: 140px;
+  height: 70px;
+  margin-left: -30px;
+}
+.anchor a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.search_bar {
+  background-color: transparent;
+  border: 0px solid;
+}
+.add_to_cart {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(240, 255, 255, 0.326);
+}
+.shoe {
+  width: 700px;
+  position: absolute;
+  transform: rotate(328deg);
+  right: 260px;
+  top: 135px;
+  filter: brightness(1.5);
+  z-index: 10;
+}
+
+.content_container {
+  /* border: 2px solid black; */
+  width: 364px;
+  height: 350px;
+  position: absolute;
+  top: 23%;
+  left: 16%;
+  z-index: 10;
+}
+.price_tag {
+  font-size: 33px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: -10px;
+  margin-left: 3px;
+}
+.model_name {
+  font-size: 56px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+.model_name_2 {
+  font-size: 56px;
+  color: white;
+  font-weight: 600;
+}
+.star {
+  width: 32px;
+}
+.paragraph {
+  font-size: 12px;
+}
+.back_content {
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 20%;
+  /* font-size: 100px; */
+  color: black;
+  z-index: 2;
+  margin-left: -113px;
+}
+.air_jorden {
+  font-size: 326px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.purchase_icon {
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 75%;
+  right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.shopping {
+  color: white;
+  font-size: 40px;
+}
+.buy {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: -8px;
+}
+.now {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
